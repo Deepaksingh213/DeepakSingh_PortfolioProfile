@@ -16,7 +16,7 @@ const skills = [
 const Skills = () => {
   return (
        <section className="bg-gray-800 py-16">
-        <div className="container">
+        <div className="container mx-auto px-4">
         <motion.h1
                 variants={FadeRight(1)}
                 initial="hidden"
