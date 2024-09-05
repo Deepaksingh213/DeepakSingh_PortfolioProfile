@@ -139,6 +139,13 @@ const Footer = () => {
                                      
                                     </li>
                                 </ul>
+                                <h3 className="text-sm font-semibold text-gray-400 tracking-wider uppercase mt-4">Mobile No.</h3>
+                                <ul role="list" className="mt-4 space-y-4">
+                                    <li className="text-base text-gray-500">
+                                      9838260724
+                                     
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>

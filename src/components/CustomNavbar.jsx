@@ -3,6 +3,7 @@ import React,{useState} from 'react';
 import {  MdMenu  } from "react-icons/md";
 import { Link } from "react-router-dom";
 import MobileMenu from './MobileMenu';
+import DownloadResume from '../pages/DownloadResume';
 
 const menuItems = [
     { id: 1, title: 'Home', link: '/' },
@@ -37,9 +38,7 @@ const [open, setOpen] = useState(false)
                                     </Link>
                                 </li>
                             ))}
-                            {/* <button className='rounded-full text-2xl hover:bg-primary p-2 items-center flex'>
-                              Resume
-                            </button> */}
+                        <DownloadResume/>
                         </ul>
                     </div>
                     {/* mobile section */}

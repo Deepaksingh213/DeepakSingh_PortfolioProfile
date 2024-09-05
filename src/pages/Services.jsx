@@ -4,6 +4,7 @@ import { MdOutlineWebAsset, MdOutlineWebStories } from "react-icons/md";
 import { SiWebmoney } from "react-icons/si";
 import { motion } from "framer-motion"; 
 import { FadeRight, FadeLeft } from "../utils/animation";
+import DownloadResume from "./DownloadResume";
 
 const ServicesData = [
   {
@@ -58,10 +59,7 @@ const Services = () => {
                   <button className="py-2 px-4 text-white bg-primary rounded-md w-36">
                     Know More
                   </button>
-                  <button className="border border-primary/50 rounded-lg text-md flex items-center gap-2 py-2 px-4 text-white">
-                    <MdOutlineFileDownload className="text-white" size="22px" />
-                    Download Resume
-                  </button>
+                 <DownloadResume/>
                 </motion.div>
               </div>
             </div>
